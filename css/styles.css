@@ -5,8 +5,13 @@
     font-family: sans-serif;
 }
 
-header .container img{
-    width: 300px;
+header img{
+    width: 350px;
+    padding-left: 90px;
+}
+
+.diseno{
+    width: 100%;
     padding-left: 80px;
 }
 
@@ -19,6 +24,7 @@ header .container{
     align-items: center;
 }
 
+
 nav a{
     text-decoration: none;
     padding: 10px;
@@ -29,13 +35,16 @@ nav a{
 
 nav a:hover{
     color: red;
+    font-size: 23px;
+}
+
+main .imgd .d{
+    width: 100%;
 }
 
 .servicios{
     display: flex;
-    flex-wrap: nowrap;
     justify-content: center;
-    height: 1000px;
 }
 
 .servicios img{
